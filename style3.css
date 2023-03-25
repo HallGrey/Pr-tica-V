@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box1{
+    background-color: black;
+    border-radius: 2rem;
+    text-align: center;
+    width: 80vw;
+    height: auto;
+    position: relative;
+    transform: translate(-50,-50);
+    top: 15%;
+    left: 8%;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.box2{
+    background-color: black;
+    border: 5px solid red;
+    text-align: center;
+    width: 80vw;
+    height: 25vh;
+    transform: translate(-50,-50);
+    position: relative;
+    top: 30%;
+    left: 8%;
+    text-transform: uppercase;
+    color: white;
+    overflow: scroll;
+}
